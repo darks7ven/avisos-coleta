@@ -1,0 +1,46 @@
+
+.pagina {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #24343b;
+  background-color: #f4f7f5;
+}
+
+header {
+  background-color: #26734d;
+  color: white;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0 0 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #d5e5db;
+  border-radius: 10px;
+  padding: 20px;
+  width: 260px;
+  box-shadow: 0 3px 8px #00000015;
+}
+
+.card h2 {
+  color: #26734d;
+}
+
+footer {
+  background-color: #24343b;
+  color: white;
+  padding: 20px;
+}
