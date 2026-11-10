@@ -1,0 +1,66 @@
+
+.cabecalho {
+  width: 100%;
+  height: 52px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.logo-nome {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #176b4b;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.logo-icone {
+  color: #159447;
+  font-size: 21px;
+  line-height: 1;
+}
+
+.logo p {
+  font-size: 9px;
+  color: #7c8983;
+  margin-top: 1px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-right: 5%;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #202c28;
+  font-size: 11px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.menu a:hover {
+  color: #159447;
+}
+
+@media (max-width: 600px) {
+  .cabecalho {
+    height: auto;
+    padding: 15px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .menu {
+    gap: 15px;
+    margin-right: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
